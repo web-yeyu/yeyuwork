@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 200px;
+    height: 500px;
+    margin: 0 auto;
+}
+.item{
+    width: 200px;
+    height: 50px;
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background-color: rgb(41, 164, 221);
+}
+.item:hover{
+    cursor: pointer;
+}
+.item-hid{
+    width: 200px;
+    height: 90px;
+    display: none;
+}
+.item-hid li{
+    width: 200px;
+    height: 30px;
+    list-style: none;
+    float: left;
+}
+.item-hid li a{
+    display: block;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+}
